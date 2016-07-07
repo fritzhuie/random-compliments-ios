@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F19BE191D2DFA450083844A /* beautiful.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F19BE171D2DFA450083844A /* beautiful.mp3 */; };
+		1F19BE1A1D2DFA450083844A /* awesome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F19BE181D2DFA450083844A /* awesome.mp3 */; };
+		1F4D5C0B1D2DD0DB001C575B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C0A1D2DD0DB001C575B /* AppDelegate.swift */; };
+		1F4D5C0D1D2DD0DB001C575B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C0C1D2DD0DB001C575B /* ViewController.swift */; };
+		1F4D5C101D2DD0DB001C575B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C0E1D2DD0DB001C575B /* Main.storyboard */; };
+		1F4D5C121D2DD0DB001C575B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C111D2DD0DB001C575B /* Assets.xcassets */; };
+		1F4D5C151D2DD0DB001C575B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C131D2DD0DB001C575B /* LaunchScreen.storyboard */; };
+		1F4D5C1D1D2DD1E3001C575B /* emily.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C1C1D2DD1E3001C575B /* emily.jpg */; };
+		1F4D5C241D2DF735001C575B /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C231D2DF735001C575B /* heart.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F19BE171D2DFA450083844A /* beautiful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beautiful.mp3; sourceTree = "<group>"; };
+		1F19BE181D2DFA450083844A /* awesome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = awesome.mp3; sourceTree = "<group>"; };
+		1F4D5C071D2DD0DB001C575B /* kimsoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kimsoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4D5C0A1D2DD0DB001C575B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F4D5C0C1D2DD0DB001C575B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F4D5C0F1D2DD0DB001C575B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F4D5C111D2DD0DB001C575B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4D5C141D2DD0DB001C575B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F4D5C161D2DD0DB001C575B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4D5C1C1D2DD1E3001C575B /* emily.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emily.jpg; sourceTree = "<group>"; };
+		1F4D5C231D2DF735001C575B /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4D5C041D2DD0DB001C575B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4D5BFE1D2DD0DB001C575B = {
+			isa = PBXGroup;
+			children = (
+				1F4D5C091D2DD0DB001C575B /* kimsoundboard */,
+				1F4D5C081D2DD0DB001C575B /* Products */,
+				1F4D5C1C1D2DD1E3001C575B /* emily.jpg */,
+				1F4D5C231D2DF735001C575B /* heart.png */,
+				1F19BE171D2DFA450083844A /* beautiful.mp3 */,
+				1F19BE181D2DFA450083844A /* awesome.mp3 */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4D5C081D2DD0DB001C575B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D5C071D2DD0DB001C575B /* kimsoundboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4D5C091D2DD0DB001C575B /* kimsoundboard */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D5C0A1D2DD0DB001C575B /* AppDelegate.swift */,
+				1F4D5C0C1D2DD0DB001C575B /* ViewController.swift */,
+				1F4D5C0E1D2DD0DB001C575B /* Main.storyboard */,
+				1F4D5C111D2DD0DB001C575B /* Assets.xcassets */,
+				1F4D5C131D2DD0DB001C575B /* LaunchScreen.storyboard */,
+				1F4D5C161D2DD0DB001C575B /* Info.plist */,
+			);
+			path = kimsoundboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4D5C061D2DD0DB001C575B /* kimsoundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4D5C191D2DD0DB001C575B /* Build configuration list for PBXNativeTarget "kimsoundboard" */;
+			buildPhases = (
+				1F4D5C031D2DD0DB001C575B /* Sources */,
+				1F4D5C041D2DD0DB001C575B /* Frameworks */,
+				1F4D5C051D2DD0DB001C575B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kimsoundboard;
+			productName = kimsoundboard;
+			productReference = 1F4D5C071D2DD0DB001C575B /* kimsoundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4D5BFF1D2DD0DB001C575B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fritz;
+				TargetAttributes = {
+					1F4D5C061D2DD0DB001C575B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F4D5C021D2DD0DB001C575B /* Build configuration list for PBXProject "kimsoundboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4D5BFE1D2DD0DB001C575B;
+			productRefGroup = 1F4D5C081D2DD0DB001C575B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4D5C061D2DD0DB001C575B /* kimsoundboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4D5C051D2DD0DB001C575B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4D5C151D2DD0DB001C575B /* LaunchScreen.storyboard in Resources */,
+				1F4D5C121D2DD0DB001C575B /* Assets.xcassets in Resources */,
+				1F4D5C1D1D2DD1E3001C575B /* emily.jpg in Resources */,
+				1F4D5C241D2DF735001C575B /* heart.png in Resources */,
+				1F19BE191D2DFA450083844A /* beautiful.mp3 in Resources */,
+				1F4D5C101D2DD0DB001C575B /* Main.storyboard in Resources */,
+				1F19BE1A1D2DFA450083844A /* awesome.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4D5C031D2DD0DB001C575B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4D5C0D1D2DD0DB001C575B /* ViewController.swift in Sources */,
+				1F4D5C0B1D2DD0DB001C575B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F4D5C0E1D2DD0DB001C575B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4D5C0F1D2DD0DB001C575B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F4D5C131D2DD0DB001C575B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4D5C141D2DD0DB001C575B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4D5C171D2DD0DB001C575B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F4D5C181D2DD0DB001C575B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F4D5C1A1D2DD0DB001C575B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kimsoundboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fritz.kimsoundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F4D5C1B1D2DD0DB001C575B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kimsoundboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fritz.kimsoundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4D5C021D2DD0DB001C575B /* Build configuration list for PBXProject "kimsoundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4D5C171D2DD0DB001C575B /* Debug */,
+				1F4D5C181D2DD0DB001C575B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4D5C191D2DD0DB001C575B /* Build configuration list for PBXNativeTarget "kimsoundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4D5C1A1D2DD0DB001C575B /* Debug */,
+				1F4D5C1B1D2DD0DB001C575B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F4D5BFF1D2DD0DB001C575B /* Project object */;
+}
