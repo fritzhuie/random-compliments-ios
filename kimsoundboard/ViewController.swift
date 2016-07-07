@@ -14,16 +14,40 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        label.frame = self.view.frame
+        label.font = label.font.fontWithSize(40)
+        label.textAlignment = .Center;
+        self.view.addSubview(label)
+        
         for each in allSounds.keys {
             remainingSounds.append(each)
         }
     }
+    
+    let label = UILabel()
+    
+    func textPopup (string:String) {
+        label.text = string
+        UIView.animateWithDuration(1.0, delay: 0.0, options: UIViewAnimationOptions.CurveEaseIn, animations: {
+            self.label.alpha = 1.0
+            }, completion: nil)
+        
+        UIView.animateWithDuration(2.0, delay: 1.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+            self.label.alpha = 0.0
+            }, completion: {
+                (finished: Bool) -> Void in
+        })
+                
+    }
+    
     
     var audioPlayer = AVAudioPlayer()
 
     @IBOutlet weak var button: UIButton!
     
     @IBAction func buttonTapped(sender: UIButton) {
+        
+        textPopup("woah")
         
         button.enabled = false
         _ = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: #selector(self.enableButton), userInfo: nil, repeats: false)
@@ -49,8 +73,8 @@ class ViewController: UIViewController {
     
     var remainingSounds = [String]()
     var allSounds:[String:String?] = [
-        "beautiful.mp3":"emily.jpg",
-        "awesome.mp3":nil,]
+        "beautiful.mp3":"You are beautiful!",
+        "awesome.mp3":"You are awesome!",]
 
 }
 
