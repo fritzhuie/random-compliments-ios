@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,8 +20,13 @@ class ViewController: UIViewController {
     }
     
     var audioPlayer = AVAudioPlayer()
+
+    @IBOutlet weak var button: UIButton!
     
     @IBAction func buttonTapped(sender: UIButton) {
+        
+        button.enabled = false
+        _ = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: #selector(self.enableButton), userInfo: nil, repeats: false)
         
         if(remainingSounds.count < 1){
             for each in allSounds.keys {
@@ -36,6 +41,10 @@ class ViewController: UIViewController {
         let url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(soundName, ofType:nil)!)
         audioPlayer = try! AVAudioPlayer(contentsOfURL: url)
         audioPlayer.play()
+    }
+    
+    func enableButton() {
+        button.enabled = true
     }
     
     var remainingSounds = [String]()

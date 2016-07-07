@@ -45,6 +45,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="FCj-7y-DTK" id="zIE-6q-vhV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
