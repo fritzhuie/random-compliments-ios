@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         
         let itr = Int(arc4random_uniform(UInt32(allSounds.count)))
         let soundName = remainingSounds[itr]
-        remainingSounds.removeAtIndex(itr)
+        //remainingSounds.removeAtIndex(itr)
         
         let url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(soundName, ofType:nil)!)
         audioPlayer = try! AVAudioPlayer(contentsOfURL: url)
