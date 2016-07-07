@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     let label = UILabel()
     
-    func textPopup (string:String) {
+    func textPopup (string:String?) {
         label.text = string
         UIView.animateWithDuration(1.0, delay: 0.0, options: UIViewAnimationOptions.CurveEaseIn, animations: {
             self.label.alpha = 1.0
@@ -47,8 +47,6 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(sender: UIButton) {
         
-        textPopup("woah")
-        
         button.enabled = false
         _ = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: #selector(self.enableButton), userInfo: nil, repeats: false)
         
@@ -59,8 +57,10 @@ class ViewController: UIViewController {
         }
         
         let itr = Int(arc4random_uniform(UInt32(allSounds.count)))
-        let soundName = remainingSounds[itr]
+        let soundName:String = remainingSounds[itr]
         //remainingSounds.removeAtIndex(itr)
+        
+        textPopup(allSounds[soundName]!)
         
         let url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(soundName, ofType:nil)!)
         audioPlayer = try! AVAudioPlayer(contentsOfURL: url)
