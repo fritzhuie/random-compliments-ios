@@ -50,15 +50,21 @@ class ViewController: UIViewController {
         button.enabled = false
         _ = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: #selector(self.enableButton), userInfo: nil, repeats: false)
         
-        if(remainingSounds.count < 1){
-            for each in allSounds.keys {
+        var soundName:String = remainingSounds[0]
+        
+        if(remainingSounds.count == 1){
+            soundName = remainingSounds[0]
+            remainingSounds.removeAll()
+            for each in allSounds.keys{
                 remainingSounds.append(each)
             }
+        }else{
+            let itr = Int(arc4random_uniform(UInt32(allSounds.count)))
+            soundName = remainingSounds[itr]
+            remainingSounds.removeAtIndex(itr)
         }
         
-        let itr = Int(arc4random_uniform(UInt32(allSounds.count)))
-        let soundName:String = remainingSounds[itr]
-        //remainingSounds.removeAtIndex(itr)
+        
         
         textPopup(allSounds[soundName]!)
         
