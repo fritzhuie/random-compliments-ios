@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F19BE191D2DFA450083844A /* beautiful.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F19BE171D2DFA450083844A /* beautiful.mp3 */; };
-		1F19BE1A1D2DFA450083844A /* awesome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F19BE181D2DFA450083844A /* awesome.mp3 */; };
 		1F4D5C0B1D2DD0DB001C575B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C0A1D2DD0DB001C575B /* AppDelegate.swift */; };
 		1F4D5C0D1D2DD0DB001C575B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C0C1D2DD0DB001C575B /* ViewController.swift */; };
 		1F4D5C101D2DD0DB001C575B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C0E1D2DD0DB001C575B /* Main.storyboard */; };
 		1F4D5C121D2DD0DB001C575B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C111D2DD0DB001C575B /* Assets.xcassets */; };
 		1F4D5C151D2DD0DB001C575B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C131D2DD0DB001C575B /* LaunchScreen.storyboard */; };
 		1F4D5C1D1D2DD1E3001C575B /* emily.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C1C1D2DD1E3001C575B /* emily.jpg */; };
-		1F4D5C241D2DF735001C575B /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D5C231D2DF735001C575B /* heart.png */; };
+		1F5A06391D374ED9008612A6 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06381D374ED9008612A6 /* a.jpg */; };
+		1F5A063B1D375122008612A6 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A063A1D375122008612A6 /* heart.png */; };
+		1F5A06481D375681008612A6 /* affection.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A063C1D375681008612A6 /* affection.mp3 */; };
+		1F5A06491D375681008612A6 /* assholes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A063D1D375681008612A6 /* assholes.mp3 */; };
+		1F5A064A1D375681008612A6 /* bedhead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A063E1D375681008612A6 /* bedhead.mp3 */; };
+		1F5A064B1D375681008612A6 /* burgers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A063F1D375681008612A6 /* burgers.mp3 */; };
+		1F5A064C1D375681008612A6 /* fabulous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06401D375681008612A6 /* fabulous.mp3 */; };
+		1F5A064D1D375681008612A6 /* fuckingbeautiful.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06411D375681008612A6 /* fuckingbeautiful.mp3 */; };
+		1F5A064E1D375681008612A6 /* killingit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06421D375681008612A6 /* killingit.mp3 */; };
+		1F5A064F1D375681008612A6 /* laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06431D375681008612A6 /* laugh.mp3 */; };
+		1F5A06501D375681008612A6 /* loved.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06441D375681008612A6 /* loved.mp3 */; };
+		1F5A06511D375681008612A6 /* opinions.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06451D375681008612A6 /* opinions.mp3 */; };
+		1F5A06521D375681008612A6 /* proud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06461D375681008612A6 /* proud.mp3 */; };
+		1F5A06531D375681008612A6 /* shittyday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06471D375681008612A6 /* shittyday.mp3 */; };
+		1F5A06571D375686008612A6 /* thelight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06541D375686008612A6 /* thelight.mp3 */; };
+		1F5A06581D375686008612A6 /* warmestperson.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06551D375686008612A6 /* warmestperson.mp3 */; };
+		1F5A06591D375686008612A6 /* wisdom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A06561D375686008612A6 /* wisdom.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F19BE171D2DFA450083844A /* beautiful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beautiful.mp3; sourceTree = "<group>"; };
-		1F19BE181D2DFA450083844A /* awesome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = awesome.mp3; sourceTree = "<group>"; };
 		1F4D5C071D2DD0DB001C575B /* kimsoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kimsoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4D5C0A1D2DD0DB001C575B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F4D5C0C1D2DD0DB001C575B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +41,23 @@
 		1F4D5C141D2DD0DB001C575B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F4D5C161D2DD0DB001C575B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F4D5C1C1D2DD1E3001C575B /* emily.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emily.jpg; sourceTree = "<group>"; };
-		1F4D5C231D2DF735001C575B /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		1F5A06381D374ED9008612A6 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		1F5A063A1D375122008612A6 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		1F5A063C1D375681008612A6 /* affection.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = affection.mp3; sourceTree = "<group>"; };
+		1F5A063D1D375681008612A6 /* assholes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assholes.mp3; sourceTree = "<group>"; };
+		1F5A063E1D375681008612A6 /* bedhead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bedhead.mp3; sourceTree = "<group>"; };
+		1F5A063F1D375681008612A6 /* burgers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = burgers.mp3; sourceTree = "<group>"; };
+		1F5A06401D375681008612A6 /* fabulous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fabulous.mp3; sourceTree = "<group>"; };
+		1F5A06411D375681008612A6 /* fuckingbeautiful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fuckingbeautiful.mp3; sourceTree = "<group>"; };
+		1F5A06421D375681008612A6 /* killingit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = killingit.mp3; sourceTree = "<group>"; };
+		1F5A06431D375681008612A6 /* laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laugh.mp3; sourceTree = "<group>"; };
+		1F5A06441D375681008612A6 /* loved.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loved.mp3; sourceTree = "<group>"; };
+		1F5A06451D375681008612A6 /* opinions.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = opinions.mp3; sourceTree = "<group>"; };
+		1F5A06461D375681008612A6 /* proud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = proud.mp3; sourceTree = "<group>"; };
+		1F5A06471D375681008612A6 /* shittyday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shittyday.mp3; sourceTree = "<group>"; };
+		1F5A06541D375686008612A6 /* thelight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thelight.mp3; sourceTree = "<group>"; };
+		1F5A06551D375686008612A6 /* warmestperson.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warmestperson.mp3; sourceTree = "<group>"; };
+		1F5A06561D375686008612A6 /* wisdom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wisdom.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,10 +76,10 @@
 			children = (
 				1F4D5C091D2DD0DB001C575B /* kimsoundboard */,
 				1F4D5C081D2DD0DB001C575B /* Products */,
+				1F5A06381D374ED9008612A6 /* a.jpg */,
 				1F4D5C1C1D2DD1E3001C575B /* emily.jpg */,
-				1F4D5C231D2DF735001C575B /* heart.png */,
-				1F19BE171D2DFA450083844A /* beautiful.mp3 */,
-				1F19BE181D2DFA450083844A /* awesome.mp3 */,
+				1F5A063A1D375122008612A6 /* heart.png */,
+				1F5A065A1D3756C1008612A6 /* sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +102,28 @@
 				1F4D5C161D2DD0DB001C575B /* Info.plist */,
 			);
 			path = kimsoundboard;
+			sourceTree = "<group>";
+		};
+		1F5A065A1D3756C1008612A6 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A063C1D375681008612A6 /* affection.mp3 */,
+				1F5A063D1D375681008612A6 /* assholes.mp3 */,
+				1F5A063E1D375681008612A6 /* bedhead.mp3 */,
+				1F5A063F1D375681008612A6 /* burgers.mp3 */,
+				1F5A06401D375681008612A6 /* fabulous.mp3 */,
+				1F5A06411D375681008612A6 /* fuckingbeautiful.mp3 */,
+				1F5A06421D375681008612A6 /* killingit.mp3 */,
+				1F5A06431D375681008612A6 /* laugh.mp3 */,
+				1F5A06441D375681008612A6 /* loved.mp3 */,
+				1F5A06451D375681008612A6 /* opinions.mp3 */,
+				1F5A06461D375681008612A6 /* proud.mp3 */,
+				1F5A06471D375681008612A6 /* shittyday.mp3 */,
+				1F5A06541D375686008612A6 /* thelight.mp3 */,
+				1F5A06551D375686008612A6 /* warmestperson.mp3 */,
+				1F5A06561D375686008612A6 /* wisdom.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,13 +184,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5A064C1D375681008612A6 /* fabulous.mp3 in Resources */,
+				1F5A06581D375686008612A6 /* warmestperson.mp3 in Resources */,
+				1F5A06481D375681008612A6 /* affection.mp3 in Resources */,
+				1F5A063B1D375122008612A6 /* heart.png in Resources */,
 				1F4D5C151D2DD0DB001C575B /* LaunchScreen.storyboard in Resources */,
+				1F5A064B1D375681008612A6 /* burgers.mp3 in Resources */,
 				1F4D5C121D2DD0DB001C575B /* Assets.xcassets in Resources */,
 				1F4D5C1D1D2DD1E3001C575B /* emily.jpg in Resources */,
-				1F4D5C241D2DF735001C575B /* heart.png in Resources */,
-				1F19BE191D2DFA450083844A /* beautiful.mp3 in Resources */,
+				1F5A06591D375686008612A6 /* wisdom.mp3 in Resources */,
+				1F5A064F1D375681008612A6 /* laugh.mp3 in Resources */,
+				1F5A064D1D375681008612A6 /* fuckingbeautiful.mp3 in Resources */,
+				1F5A06491D375681008612A6 /* assholes.mp3 in Resources */,
+				1F5A064A1D375681008612A6 /* bedhead.mp3 in Resources */,
+				1F5A064E1D375681008612A6 /* killingit.mp3 in Resources */,
+				1F5A06521D375681008612A6 /* proud.mp3 in Resources */,
+				1F5A06531D375681008612A6 /* shittyday.mp3 in Resources */,
+				1F5A06511D375681008612A6 /* opinions.mp3 in Resources */,
+				1F5A06391D374ED9008612A6 /* a.jpg in Resources */,
+				1F5A06501D375681008612A6 /* loved.mp3 in Resources */,
 				1F4D5C101D2DD0DB001C575B /* Main.storyboard in Resources */,
-				1F19BE1A1D2DFA450083844A /* awesome.mp3 in Resources */,
+				1F5A06571D375686008612A6 /* thelight.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +328,8 @@
 		1F4D5C1A1D2DD0DB001C575B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = kimsoundboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fritz.kimsoundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,8 +339,8 @@
 		1F4D5C1B1D2DD0DB001C575B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = kimsoundboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fritz.kimsoundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
