@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         label.frame = self.view.frame
-        label.font = UIFont(name: "arial", size: 40)
+        label.font = UIFont(name: "Chalkboard SE", size: 40)
         label.textAlignment = .Center;
         label.textColor = UIColor.blueColor()
         self.view.addSubview(label)
@@ -89,20 +89,20 @@ class ViewController: UIViewController {
     var remainingSounds = [String]()
     var allSounds:[String:String?] = [
         "affection.mp3":"You are beautiful!",
-        "assholes.mp3":"You are awesome!",
-        "bedhead.mp3":"You are beautiful!",
-        "burgers.mp3":"You are awesome!",
-        "fabulous.mp3":"You are beautiful!",
-        "fuckingbeautiful.mp3":"You are awesome!",
-        "killingit.mp3":"You are beautiful!",
-        "laugh.mp3":"You are awesome!",
-        "loved.mp3":"You are beautiful!",
-        "opinions.mp3":"You are awesome!",
-        "proud.mp3":"You are beautiful!",
-        "shittyday.mp3":"You are awesome!",
+        "assholes.mp3":"Go get 'em!",
+        "bedhead.mp3":"Always beautiful!",
+        "burgers.mp3":"you're delicious!",
+        "fabulous.mp3":"So fabulous!",
+        "fuckingbeautiful.mp3":"100% beautiful!",
+        "killingit.mp3":"#winning at life!",
+        "laugh.mp3":"Your laugh is the best!",
+        "loved.mp3":"you are loved!!!",
+        "opinions.mp3":"Your opinions rock!",
+        "proud.mp3":"You should be proud!",
+        "shittyday.mp3":"<3 every day with you!",
         "thelight.mp3":"You are beautiful!",
-        "warmestperson.mp3":"You are awesome!",
-        "wisdom.mp3":"You are beautiful!"]
+        "warmestperson.mp3":"You are so warm!",
+        "wisdom.mp3":"Keep teaching kindness!"]
 
 }
 
