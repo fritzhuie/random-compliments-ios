@@ -86,23 +86,47 @@ class ViewController: UIViewController {
         button.enabled = true
     }
     
+//    NSString *str = @"Happy to help you \U0001F431";
+//    
+//    NSData *data = [str dataUsingEncoding:NSNonLossyASCIIStringEncoding];
+//    NSString *valueUnicode = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+//    
+//    
+//    NSData *dataa = [valueUnicode dataUsingEncoding:NSUTF8StringEncoding];
+//    NSString *valueEmoj = [[NSString alloc] initWithData:dataa encoding:NSNonLossyASCIIStringEncoding];
+//    
+//    _lbl.text = valueEmoj;
+    
+    func emojiForString (emoji:String) -> String {
+        
+        if (emoji == ""){return emoji}
+        
+        let data = emoji.dataUsingEncoding(NSNonLossyASCIIStringEncoding)
+        let unic = NSString(data: data!, encoding: NSUTF8StringEncoding)
+        
+        let dataa = unic!.dataUsingEncoding(NSUTF8StringEncoding)
+        let returnEmoji = NSString(data: dataa!, encoding: NSUTF8StringEncoding)
+        
+        return String(returnEmoji)
+    }
+    
     var remainingSounds = [String]()
     var allSounds:[String:String?] = [
-        "affection.mp3":"You are beautiful!",
+        "affection.mp3":"♥️💙💜♥️💙💜",
         "assholes.mp3":"Go get 'em!",
-        "bedhead.mp3":"Always beautiful!",
-        "burgers.mp3":"you're delicious!",
-        "fabulous.mp3":"So fabulous!",
-        "fuckingbeautiful.mp3":"100% beautiful!",
-        "killingit.mp3":"#winning at life!",
-        "laugh.mp3":"Your laugh is the best!",
-        "loved.mp3":"you are loved!!!",
-        "opinions.mp3":"Your opinions rock!",
-        "proud.mp3":"You should be proud!",
-        "shittyday.mp3":"<3 every day with you!",
-        "thelight.mp3":"You are beautiful!",
-        "warmestperson.mp3":"You are so warm!",
-        "wisdom.mp3":"Keep teaching kindness!"]
+        "bedhead.mp3":"That hair though.",
+        "burgers.mp3":"You are awesome!",
+        "fabulous.mp3":"Stay fabulous!",
+        "fuckingbeautiful.mp3":"So beautiful.",
+        "killingit.mp3":"You're killing it.",
+        "laugh.mp3":"Spread the joy!",
+        "loved.mp3":"We love you!",
+        "opinions.mp3":"You are awesome!",
+        "proud.mp3":"Proud of you 🙂",
+        "shittyday.mp3":"100% team you!",
+        "thelight.mp3":"✨☀️✨",
+        "warmestperson.mp3":"🔥🔥🔥🔥🔥",
+        "wisdom.mp3":"So wise."]
 
 }
 
