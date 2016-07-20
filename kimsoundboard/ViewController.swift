@@ -86,30 +86,6 @@ class ViewController: UIViewController {
         button.enabled = true
     }
     
-//    NSString *str = @"Happy to help you \U0001F431";
-//    
-//    NSData *data = [str dataUsingEncoding:NSNonLossyASCIIStringEncoding];
-//    NSString *valueUnicode = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-//    
-//    
-//    NSData *dataa = [valueUnicode dataUsingEncoding:NSUTF8StringEncoding];
-//    NSString *valueEmoj = [[NSString alloc] initWithData:dataa encoding:NSNonLossyASCIIStringEncoding];
-//    
-//    _lbl.text = valueEmoj;
-    
-    func emojiForString (emoji:String) -> String {
-        
-        if (emoji == ""){return emoji}
-        
-        let data = emoji.dataUsingEncoding(NSNonLossyASCIIStringEncoding)
-        let unic = NSString(data: data!, encoding: NSUTF8StringEncoding)
-        
-        let dataa = unic!.dataUsingEncoding(NSUTF8StringEncoding)
-        let returnEmoji = NSString(data: dataa!, encoding: NSUTF8StringEncoding)
-        
-        return String(returnEmoji)
-    }
-    
     var remainingSounds = [String]()
     var allSounds:[String:String?] = [
         "affection.mp3":"♥️💙💜♥️💙💜",
